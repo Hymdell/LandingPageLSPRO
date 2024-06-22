@@ -1,0 +1,60 @@
+header div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header span {
+  cursor: pointer;
+}
+
+header button {
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+header button:hover {
+  background-color: #f3f3f3;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.background-image {
+  background-image: url('../img/background.jpg'); /* Atualize o caminho da imagem */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-align: center;
+}
+.header-transparent {
+  background-color: transparent;
+  color: white;
+  transition: background-color 0.3s, padding 0.3s, color 0.3s;
+}
+.header-colored {
+  background-color: #f97316; /* Tailwind's bg-orange-600 */
+  color: black;
+}
+.logo-large {
+  width: 100px;
+  height: 100px;
+  transition: width 0.3s, height 0.3s;
+}
+.logo-small {
+  width: 50px;
+  height: 50px;
+}
+.header-text {
+  transition: color 0.3s;
+}
+.button-text {
+  color: gray;
+}
